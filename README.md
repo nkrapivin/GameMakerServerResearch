@@ -40,7 +40,7 @@ extern "C" EXPR_API double IsValidContext() { // @2
   - Memory Scanner
   
   
-  Set a flag somewhere in memory, and do... whatever!
+  Set a flag somewhere in memory, and do... whatever! (**crazy**)
 - Try and detect presence of VirtualBox user-mode drivers. (**batshit crazy**)
 
 ### Circumvention
@@ -48,3 +48,15 @@ extern "C" EXPR_API double IsValidContext() { // @2
 Okay so this one is a bit harder, since it's like... has more than just privacy-violating checks.
 
 But strings can be edited in HxD, wounds can heal, and life can become easier.
+
+## DF CONNECTED v2.5.3.exe
+
+### Dangerous things it does:
+- Well, obviously, it's loading the two DLLs mentioned above.
+
+### Circumvention:
+
+TODO
+
+
+
