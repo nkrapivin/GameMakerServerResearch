@@ -20,8 +20,8 @@ extern "C" EXPR_API double Initialize() { // @1
 }
 
 extern "C" EXPR_API double IsValidContext() { // @2
-	// -20 - check fail, 0 - dll is not present (gamemaker), 20 - check OK.
-	return 20.0;
+	// -20 - check PASS, 0 - dll is not present (gamemaker), 20 - check FAIL.
+	return -20.0;
 }
 ```
 
@@ -53,10 +53,13 @@ But strings can be edited in HxD, wounds can heal, and life can become easier.
 
 ### Dangerous things it does:
 - Well, obviously, it's loading the two DLLs mentioned above.
+- data.win file is embedded in the exe, encrypted with XOR, so static analysis won't work.
 
 ### Circumvention:
 
 TODO
+
+dflib
 
 
 
